@@ -1,0 +1,17 @@
+# Environment variables — never commit these
+.env
+.env.local
+.env.*
+backend/.env
+
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Build outputs
+dist/
+target/
+*.wasm
+
+# Codespaces
+.vscode/
